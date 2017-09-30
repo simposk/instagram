@@ -7,3 +7,36 @@
 
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+#home_logo {
+    width: 70%;
+    float: right;
+}
+
+.instagram_welcome {
+    margin-top: 50px;
+    background: white;
+    border: 1px solid lightgrey;
+
+    h1 {
+        text-align: center;
+        color: black;
+        font-weight: bold;
+    }
+
+    p {
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 25px;
+    
+    input {
+        margin-bottom: 5px;
+        background: lightgray;
+    }
+}

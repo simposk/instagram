@@ -1,18 +1,9 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 
-Route::get('/', function () {
-    return view('pages.index');
-});
 
-Route::get('/about', function () {
-    return view('pages.about');
-});
+Route::get('/', 'PostsController@index');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');

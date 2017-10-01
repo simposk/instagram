@@ -5,7 +5,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Profile</a></li>
+                <li><a href="/users/{{Auth::user()->id}}">Profile</a></li>
                 <li>
                     <a href="{{url('/logout')}}" onclick="event.preventDefault();
                                                  document.getElementById('logout-form').submit();">Sign Out</a>

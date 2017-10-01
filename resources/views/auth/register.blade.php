@@ -6,6 +6,7 @@
     <div class="col-md-7">
         <img id="home_logo" src="{{ URL::asset('images/instagram.png')}}">
     </div>
+   
     <div class="col-md-5 instagram_welcome">
         <h1>Instagram</h1>
         <p>Sign up to see photos and videos from your friends.</p>
@@ -63,10 +64,9 @@
                 </button>
             </div>
         </form>
-        <p>By signing up, you agree to our <br> Terms & Privacy Policy.</p>
-    </div>
-    <div>
-        <p>Have an account? <a href="/login">Log In</a></p>
+        <div>
+            <p>Have an account? <a href="/login">Log In</a></p>
+        </div>
     </div>
 </div>
 
